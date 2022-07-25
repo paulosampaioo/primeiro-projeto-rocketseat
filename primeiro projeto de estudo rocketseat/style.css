@@ -1,0 +1,70 @@
+  body {
+text-align: center;
+margin: 0;
+  }
+  #hero{
+    width: 592;
+    /* não se esqueça width é largura */
+    margin: 0 72px auto; 
+    /* primero valor eixo y  encima 
+    segundo valor  e embaixo body
+   terceiro valor e espaço (auto) eixo x da direita e esquerda */
+  }
+  #hero img {
+    
+    margin-bottom: 72px; 
+  }
+  h1{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: normal;
+  font-size: 49px;
+  line-height: 28px;
+  margin: bottom 32px; ;
+  }
+  h1 span{
+   font-weight: bold;
+  }
+  body, p, a {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+  }  
+
+  span, a {
+    
+    color: #FF9900;
+  }
+  p #footer {
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  #footer a + a {
+/* seletor fala dentro  do footer pega o a que anterior a ele tenha um a */
+margin-left: 28px;
+  }
+
+  #line{
+    width: 578px;
+    height: 0px;
+    margin: 0 auto 8;
+    border: 1px solid #eceff2;
+  }
+  #bolinhas{
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+  }
+  /* a
+a{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
+}
+p{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Open Sans', sans-serif; 
+}
+me questiono qual forma é mais organizada
+
+*/
